@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  get 'recipes' => 'recipes#index'
+
+  get 'recipes/new' => 'recipes#new'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
